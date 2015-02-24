@@ -1,2 +1,2 @@
 # gevpro-week3
-Gevorden programmeren opdrachten week 3
+Gevorderd programmeren opdrachten week 3
