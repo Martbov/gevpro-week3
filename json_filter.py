@@ -18,7 +18,7 @@ def main(argv):
         jsonFilterList = [line for line in namedtupleList if len(set(line.blood) & set(line.die)) > 0]
 
         for line in jsonFilterList:
-            print(line.language, line.classifier, ', '.join(line.blood), ', '.join(line.die))
+            print(line.language, line.classifier, ', '.join(line.blood), ', '.join(line.die), file=sys.stdout)
 
 if __name__ == '__main__':
     main(sys.argv)
