@@ -20,7 +20,7 @@ def main(argv):
 		if not bottom_hz <= f0_start <= top_hz or not bottom_hz <= f0_end <= top_hz:
 			root.remove(point)
 
-	tree.write('spontalFilter.xml')
+	tree.write(argv[2])
 
 if __name__ == '__main__':
 	main(sys.argv)
